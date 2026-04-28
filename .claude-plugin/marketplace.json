@@ -1,0 +1,19 @@
+{
+  "name": "als-marketplace-stable",
+  "owner": { "name": "Section 9 Technologies LLC" },
+  "metadata": { "description": "ALS — Agent Language Specification (stable channel)" },
+  "plugins": [
+    {
+      "name": "als",
+      "source": {
+        "source": "github",
+        "repo": "nfrith/als",
+        "ref": "stable"
+      },
+      "description": "ALS tools and skills — create modules, validate systems, and deploy Claude skills",
+      "author": { "name": "Nicholas Frith" },
+      "license": "Elastic-2.0",
+      "keywords": ["agents", "als", "validation", "markdown"]
+    }
+  ]
+}
